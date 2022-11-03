@@ -1,14 +1,14 @@
 resources:
 - ./../../../../../../apps/poc-app/1.0
-
 namespace: poc-app-ns
-
 configMapGenerator:
-
 - name: poc-processor-configuration
   behavior: merge
   literals:
   - eventhub.name="poctest"
   - storage.containername="pocmessages"
   - test="foo2"
-
+- name: poc-generator-configuration
+  behavior: replace
+  files:
+  - poc-generator-configuration/infraconfig.yaml
