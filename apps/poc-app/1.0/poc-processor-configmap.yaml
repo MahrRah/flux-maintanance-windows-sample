@@ -8,3 +8,9 @@ data:
   eventhub.name: "default-eventhubname"
   storage.containername: "default-storagecontainername"
   test: "foobar"
+  appconfig.yaml: |
+    frequencySeconds: 9
+    medium: 'tea'
+  module.yaml: |
+    frequencySeconds: 3
+    medium: 'oil'
