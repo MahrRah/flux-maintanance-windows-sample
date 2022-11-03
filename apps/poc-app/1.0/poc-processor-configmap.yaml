@@ -7,3 +7,4 @@ data:
   infraconfig.topic: "generator"
   eventhub.name: "default-eventhubname"
   storage.containername: "default-storagecontainername"
+  test: "foobar"
