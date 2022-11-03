@@ -1,4 +1,3 @@
 resources:
 - poc-generator-configmap-live.yaml
-- poc-generator-live-deployment.yaml
 
