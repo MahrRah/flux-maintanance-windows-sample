@@ -1,6 +1,5 @@
 resources:
 - ./../../../../../../apps/poc-app/1.0
-
 namespace: poc-app-ns
 
 # configMapGenerator:
