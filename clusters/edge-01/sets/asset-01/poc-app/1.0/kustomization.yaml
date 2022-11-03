@@ -1,8 +1,3 @@
 resources:
 - ./../../../../../../apps/poc-app/1.0
 namespace: poc-app-ns
-configMapGenerator:
-- name: poc-processor-configuration
-  behavior: replace
-  files:
-  - poc-processor-configuration/test
